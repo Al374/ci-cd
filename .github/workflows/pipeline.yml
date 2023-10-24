@@ -35,7 +35,8 @@ jobs:
       with:
         arguments: build
     - name: Tag artifact
-      run: mv /home/runner/work/ci-cd/ci-cd/gradlew build/libs/greetings-ci.jar build/libs/greetings-ci-${{ steps.changelog.outputs.version || github.event.inputs.myversion }}.jar
+      run: 
+         mv /home/runner/work/ci-cd/ci-cd/gradlew build/libs/greetings-ci.jar /home/runner/work/ci-cd/ci-cd/gradlew build/libs/greetings-ci-${{ steps.changelog.outputs.version || github.event.inputs.myversion }}.jar
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.3
       with:
