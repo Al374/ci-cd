@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/Al374/ci-cd/compare/v0.1.0...v0.2.0) (2023-10-24)
+
+
+### Features
+
+* upload artifact ([806457a](https://github.com/Al374/ci-cd/commit/806457acd669912fc5f04328f685bf506a024f6e))
+
+
+
 # [0.1.0](https://github.com/Al374/ci-cd/compare/v0.1.2...v0.1.0) (2023-10-23)
 
 
