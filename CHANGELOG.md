@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/Al374/ci-cd/compare/v0.2.0...v0.3.0) (2023-10-24)
+
+
+### Features
+
+* version artifact ([0dcbbf9](https://github.com/Al374/ci-cd/commit/0dcbbf90598dfe8896a808e43a6133a88b7f1f19))
+
+
+
 # [0.2.0](https://github.com/Al374/ci-cd/compare/v0.1.0...v0.2.0) (2023-10-24)
 
 
