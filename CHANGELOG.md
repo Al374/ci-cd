@@ -1,3 +1,12 @@
+## [0.7.1](https://github.com/Al374/ci-cd/compare/v0.7.0...v0.7.1) (2023-10-24)
+
+
+### Bug Fixes
+
+* check the path ([6ef92ae](https://github.com/Al374/ci-cd/commit/6ef92aee0166ceed9c4024467400c827f52029fb))
+
+
+
 # [0.7.0](https://github.com/Al374/ci-cd/compare/v0.6.0...v0.7.0) (2023-10-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * version artifact ([b0970d5](https://github.com/Al374/ci-cd/commit/b0970d50eb8f0c4c03063c4987e22cfa778a4a97))
-
-
-
-# [0.3.0](https://github.com/Al374/ci-cd/compare/v0.2.0...v0.3.0) (2023-10-24)
-
-
-### Features
-
-* version artifact ([0dcbbf9](https://github.com/Al374/ci-cd/commit/0dcbbf90598dfe8896a808e43a6133a88b7f1f19))
 
 
 
