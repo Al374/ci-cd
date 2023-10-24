@@ -36,6 +36,10 @@ jobs:
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
       with:
         arguments: build
+    - name: Find JAR file
+      id: find-jar
+      run: |
+        find . -type f -name 'greetings-jar.jar' -exec echo "::set-output name=jar_path::{}" \;
     - name: Tag artifact
       run: mv build/libs/greetings-jar.jar build/libs/greetings-ci-${{ steps.changelog.outputs.version || github.event.inputs.myversion }}.jar
     - name: Upload a Build Artifact
